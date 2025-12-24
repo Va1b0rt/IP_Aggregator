@@ -1,7 +1,7 @@
 # Country IP CIDR Aggregator
 A lightweight Python script to fetch, parse, and aggregate IPv4 and IPv6 subnets for specific countries directly from Regional Internet Registries (RIR).
 
-##Features
+## Features
 - **RIR Data Source**: Fetches the latest delegated statistics from all five RIRs: RIPE, ARIN, APNIC, LACNIC, and AFRINIC.
 - **Aggregation**: Automatically merges adjacent subnets and removes nested networks (supernetting) using the ipaddress library to minimize the output size.
 - **Flexible Input**: Supports fetching a single country or a batch list of countries.
